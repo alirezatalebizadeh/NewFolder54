@@ -1,11 +1,14 @@
 .article_part {
   position: relative;
 }
+
 .article_part .swiper-slide {
   margin: 0 auto;
 }
+
 .article_part .mySwiper {
   position: relative;
+  padding: 20px 0;
 }
 
 .article_part .mySwiper .swiper-button-prev {

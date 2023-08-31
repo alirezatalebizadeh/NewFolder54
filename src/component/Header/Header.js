@@ -7,7 +7,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Header.css'
 import { BsArrowDownCircleFill } from "react-icons/bs";
 
-import './Header.css'
 import skiLogo from './logo_left.svg'
 
 

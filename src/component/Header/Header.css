@@ -137,6 +137,7 @@
 
   background-color: green;
 }
+
 .link {
   color: #fff;
 }
@@ -160,20 +161,33 @@
     font-weight: 400;
     font-size: 1.3rem !important;
   }
+  .left_header img{
+    max-width: 50% !important;
+  }
+  .header_bottom{
+    padding: 60px 0 !important;
+  }
 }
+
 
 @media screen and (max-width: 1000px) {
   .navbar .nav-link {
     margin: 0 5px;
   }
-}
 
-@media screen and (max-width: 1000px) {
   .navbar .nav-link {
     margin: 0 3px !important;
   }
 
   .btn_account {
     margin-right: 30px;
+  }
+
+  .navbar .nav-link {
+    font-size: .9rem !important;
+  }
+
+  .arrow_bottom_icon {
+    left: 46% !important;
   }
 }
