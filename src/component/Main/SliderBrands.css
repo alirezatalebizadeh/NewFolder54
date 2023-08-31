@@ -2,17 +2,17 @@
     text-align: center;
 }
 
-.mySwiper {
+.slider_brand .mySwiper {
     /* background-color: yellow; */
     width: 100%;
     padding: 50px 0;
     position: relative;
 }
 
-.swiper-slide {
+.slider_brand .swiper-slide {
     color: #1C1C1A;
     font-size: 1.3rem;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .swiper-button-prev {
@@ -63,6 +63,13 @@
 
     .swiper-button-next {
         right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .swiper-slide {
+        font-size: .9rem !important;
     }
 
 }

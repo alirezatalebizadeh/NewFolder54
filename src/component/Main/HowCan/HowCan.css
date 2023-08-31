@@ -8,7 +8,6 @@
 }
 
 .howCan_right {
-  /* background-color: rgb(141, 141, 172); */
   width: 50%;
   direction: rtl;
   display: flex;
@@ -16,7 +15,6 @@
 }
 
 .howCan_left {
-  /* background-color: rgb(137, 92, 92); */
   width: 50%;
   position: relative;
   display: flex;
@@ -34,7 +32,6 @@
 
 .howCan ul li {
   list-style-type: none;
-  display: flex;
   align-items: center;
   margin-top: 25px;
 }
@@ -57,3 +54,4 @@
   font-size: 3.5rem;
   z-index: 100;
 }
+
