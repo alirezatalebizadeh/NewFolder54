@@ -3,7 +3,7 @@
     padding: 0 20px;
     direction: rtl;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
 
 }
 
@@ -20,7 +20,7 @@
     background-color: #F1F1F1;
     height: 1px;
     width: 85%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .my_menu {
@@ -32,6 +32,7 @@
 
 .my_menu h3 {
     color: #343434;
+    font-size: 1.3rem;
 }
 
 .my_menu .logo {
@@ -49,7 +50,7 @@
 .menu_item>a {
     text-decoration: none;
     color: #707070;
-
+    font-size: .95rem;
 }
 
 .sotioal {
@@ -97,7 +98,7 @@
 
 .footer_bottom p {
     color: #707070;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .description h3 {
@@ -118,6 +119,6 @@
 
 .copy {
     border-top: 1px solid #F1F1F1;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 1.2rem;
 }

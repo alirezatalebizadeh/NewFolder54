@@ -201,6 +201,12 @@
     font-size: 2rem !important;
   }
 
+  .description h3 {
+    font-size: 1.5rem !important;
+  }
+
+
+
   .relation .relation_title {
     font-size: 1.2rem !important;
     line-height: 25px !important;
@@ -212,9 +218,7 @@
     top: 2px !important; */
   }
 
-
-
-  .prop_mainWp p {
+  .footer_bottom p {
     font-size: 1rem !important;
   }
 }
