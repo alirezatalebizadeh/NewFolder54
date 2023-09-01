@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-you can see project in ![mainWp](https://mainwp.netlify.app/)
+you can see project in https://mainwp.netlify.app/
 ### first type npm i to install react-bootstrap and bootstrap and react-icons
 ### and install bootstrap
 
