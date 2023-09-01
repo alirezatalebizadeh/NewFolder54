@@ -1,10 +1,20 @@
 .OpinionUsers {
   margin: 10px 0;
+  margin-top: 196px;
 }
 
 .OpinionUsers .top_logo {
   text-align: right;
+  position: relative;
 }
+
+.OpinionUsers .top_logo img {
+  position: absolute;
+  width: 190px;
+  right: 0;
+  top: -157px;
+}
+
 
 .OpinionUsers .body_title {
   font-size: 1.1rem !important;

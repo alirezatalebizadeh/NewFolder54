@@ -6,13 +6,12 @@
 
 .title_brand {
   text-align: center;
-  font-size: 1.9rem;
   color: #1c1c1a;
 }
 
 .title_brand .logo {
   color: #7db201;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .img_location {
@@ -47,7 +46,7 @@
 .title_email {
   text-align: center;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .email_form {
@@ -88,14 +87,20 @@
   font-size: 3rem;
 }
 
+.relation_logo {
+  position: relative;
+  height: 120px;
+}
+
+.relation_logo img {
+  width: 145px !important;
+  position: absolute;
+  top: 25px;
+}
+
 @media screen and (max-width: 500px) {
   .title_brand {
-    font-size: 0.7rem !important;
-  }
-
-  .title_brand .logo {
-    color: #7db201;
-    font-size: 2rem;
+    font-size: 1rem !important;
   }
 
   .title_email {
@@ -105,19 +110,18 @@
   .email_box .logo_black {
     font-size: 1rem !important;
   }
+
 }
 
 @media screen and (max-width: 768px) {
-  .title_brand {
-    font-size: 1.2rem !important;
-  }
+
 
   .title_brand .logo {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .title_email {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
 
   .email_box .logo_black {
@@ -127,41 +131,70 @@
   .relation .relation_title {
     font-size: 1.1rem !important;
   }
+
   .logo_laptop {
-    top: -120px;
-    width: 200px;
+    top: -120px !important;
+    width: 180px !important;
   }
+
   .logo_cup {
     top: -50px;
     width: 120px !important;
   }
+
   .prop_mainWp p {
     font-size: 0.8rem !important;
   }
+
   .relation_title {
     font-size: 0.7rem !important;
     font-weight: 400;
   }
+
   .howCan ul li {
     margin-top: 10px;
   }
+
+  .heart_logo {
+    width: 125px;
+  }
+
+  .install_part img {
+    width: 110px !important;
+    top: -100px !important;
+  }
+
+  .install_part h6 {
+    font-weight: 400;
+    line-height: 25px;
+  }
+
   .howCan_bottom {
     flex-direction: column !important;
   }
+
   .howCan_right,
   .howCan_left {
     width: 100% !important;
     margin: 10px 0;
   }
+
+  .img_location {
+    width: 200px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .title_brand {
-    font-size: 1.7rem;
+    font-size: 1.2rem !important;
   }
 
-  .title_email {
-    font-size: 1.6rem;
+  .relation .relation_title {
+    font-size: 1.2rem !important;
+  }
+
+  .title_brand {
+    font-size: 1.2rem !important;
   }
 
   .email_box .logo_black {
@@ -169,11 +202,18 @@
   }
 
   .relation .relation_title {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
+    line-height: 25px !important;
   }
-  .article_content p {
-    /* font-size: 0.9rem !important; */
+
+  .relation_logo img {
+    width: 145px !important;
+    /* position: absolute;
+    top: 2px !important; */
   }
+
+
+
   .prop_mainWp p {
     font-size: 1rem !important;
   }

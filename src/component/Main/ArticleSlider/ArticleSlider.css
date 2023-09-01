@@ -30,6 +30,7 @@
 .heart_logo {
   position: absolute;
   top: -40px;
+  
 }
 
 
@@ -45,11 +46,16 @@
   border-radius: 40px 20px;
   overflow: hidden;
   text-align: right;
-  /* border: 1px solid red; */
+
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.199);
 }
+.article_content p{
+  font-size: 1rem ;
+}
 
-.article_content {}
+.article_content {
+  padding: 10px;
+}
 
 .article_btn {
   position: absolute;

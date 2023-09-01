@@ -15,7 +15,7 @@ export default function SliderBrands () {
     <div className='slider_brand'>
       <Swiper
         rewind={true}
-        slidesPerView= {6}
+        slidesPerView= {5}
 
         navigation={true}
         // breakpoints={{

@@ -32,6 +32,12 @@
   background-color: #fff !important;
 }
 
+.offcanvas.offcanvas-end {
+  width: 550px;
+  padding-top: 15px;
+  text-align: right;
+}
+
 .parent_icon {
   position: relative;
 }
@@ -63,10 +69,12 @@
   border-bottom: 3px solid #7db201;
 }
 
+.navbar-brand .brand {}
+
 .navbar-brand {
   color: #fff;
   font-weight: 650;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .navbar-brand:hover {
@@ -161,10 +169,12 @@
     font-weight: 400;
     font-size: 1.3rem !important;
   }
-  .left_header img{
+
+  .left_header img {
     max-width: 50% !important;
   }
-  .header_bottom{
+
+  .header_bottom {
     padding: 60px 0 !important;
   }
 }

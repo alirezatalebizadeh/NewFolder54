@@ -12,11 +12,11 @@
   color: #fff;
 }
 
-.relation_logo {
-}
+.relation_logo {}
 
 .relation .relation_title {
   line-height: 35px;
+  font-size: 1.4rem;
 }
 
 .relation_btn {
@@ -30,3 +30,4 @@
 .relation_btn:hover {
   background-color: #292925;
 }
+
