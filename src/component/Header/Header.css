@@ -164,11 +164,7 @@
     flex-direction: column-reverse !important;
   }
 
-  .navbar-brand {
-    color: #fff;
-    font-weight: 400;
-    font-size: 1.3rem !important;
-  }
+
 
   .left_header img {
     max-width: 50% !important;
@@ -183,6 +179,12 @@
 @media screen and (max-width: 1000px) {
   .navbar .nav-link {
     margin: 0 5px;
+  }
+
+
+  .navbar-brand {
+    color: #4d4646 !important;
+
   }
 
   .navbar .nav-link {
